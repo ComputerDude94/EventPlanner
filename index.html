@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Àṣà Luxury Events — Nigerian Event Planning & Celebrations</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Fonts: Playfair Display + Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!-- Remix Icons for social & UI icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ============================================================
+       STICKY NAVIGATION BAR
+       Transparent on top, solid on scroll
+  ============================================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <!-- Logo -->
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon">✦</span>
+        <div class="logo-text">
+          <span class="logo-main">Àṣà Events</span>
+          <span class="logo-sub">Luxury Celebrations</span>
+        </div>
+      </a>
+
+      <!-- Desktop Menu -->
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#packages" class="nav-link">Packages</a></li>
+        <li><a href="#booking" class="nav-link nav-cta">Book Us</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Hamburger for mobile -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION — Full Screen Slider
+  ============================================================ -->
+  <section class="hero" id="home">
+    <!-- Hero Slides -->
+    <div class="hero-slider" id="heroSlider">
+      <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&q=80')"></div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=1920&q=80')"></div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1920&q=80')"></div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=1920&q=80')"></div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="hero-overlay"></div>
+
+    <!-- Hero Content -->
+    <div class="hero-content">
+      <div class="hero-badge">✦ Nigeria's Premier Event House ✦</div>
+      <h1 class="hero-headline">
+        Luxury Nigerian<br />
+        <em>Event Planning</em> &amp;<br />
+        Celebration Experiences
+      </h1>
+      <p class="hero-subheadline">
+        We design unforgettable weddings, celebrations, and cultural events<br class="desktop-br" />
+        with elegance, tradition, and modern sophistication.
+      </p>
+      <div class="hero-buttons">
+        <a href="#gallery" class="btn btn-gold">View Our Events</a>
+        <a href="#booking" class="btn btn-outline">Book Consultation</a>
+      </div>
+    </div>
+
+    <!-- Slider Dots -->
+    <div class="hero-dots" id="heroDots">
+      <button class="dot active" data-index="0"></button>
+      <button class="dot" data-index="1"></button>
+      <button class="dot" data-index="2"></button>
+      <button class="dot" data-index="3"></button>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"><div class="scroll-dot"></div></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT SECTION — Brand Story
+  ============================================================ -->
+  <section class="about section-pad" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Image side -->
+        <div class="about-image reveal-left">
+          <div class="about-img-frame">
+            <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=700&q=80" alt="Event Planner Portrait" />
+            <div class="about-img-accent"></div>
+          </div>
+          <!-- Floating stat cards -->
+          <div class="stat-card stat-card--1">
+            <span class="stat-num">12+</span>
+            <span class="stat-label">Years of Excellence</span>
+          </div>
+          <div class="stat-card stat-card--2">
+            <span class="stat-num">500+</span>
+            <span class="stat-label">Events Executed</span>
+          </div>
+        </div>
+
+        <!-- Text side -->
+        <div class="about-text reveal-right">
+          <div class="section-label">Our Story</div>
+          <h2 class="section-title">Where Culture Meets<br /><em>Luxury</em></h2>
+          <div class="gold-rule"></div>
+          <p class="about-lead">
+            Born from a deep love of Nigerian culture and a passion for extraordinary celebrations, Àṣà Luxury Events has become West Africa's most trusted name in high-end event creation.
+          </p>
+          <p>
+            Our founder, a seasoned event architect, professional MC, and creative decorator, has orchestrated over 500 milestone celebrations — weaving the threads of tradition, culture, and modern elegance into every event we touch.
+          </p>
+          <p>
+            From intimate traditional engagements to grand ballroom receptions, we bring your vision to life with meticulous attention to every detail. We do not just plan events — we craft experiences that live forever in memory.
+          </p>
+
+          <!-- Expertise tags -->
+          <div class="expertise-tags">
+            <span class="tag">Traditional Weddings</span>
+            <span class="tag">White Weddings</span>
+            <span class="tag">Engagement Ceremonies</span>
+            <span class="tag">Birthday Galas</span>
+            <span class="tag">Corporate Events</span>
+            <span class="tag">Cultural Celebrations</span>
+            <span class="tag">Milestone Events</span>
+          </div>
+
+          <a href="#services" class="btn btn-gold">Explore Our Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES SECTION — Three Elegance Cards
+  ============================================================ -->
+  <section class="services section-pad dark-section" id="services">
+    <div class="container">
+      <div class="section-header center">
+        <div class="section-label">What We Do</div>
+        <h2 class="section-title light">Crafted Services for<br /><em>Grand Celebrations</em></h2>
+        <div class="gold-rule center"></div>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Card 1: Event Planning -->
+        <div class="service-card reveal-up">
+          <div class="service-icon">
+            <i class="ri-calendar-event-line"></i>
+          </div>
+          <div class="service-number">01</div>
+          <h3>Luxury Event Planning</h3>
+          <div class="service-rule"></div>
+          <p>Full-service event planning that transforms your vision into reality. Every detail is curated with intention and elegance.</p>
+          <ul class="service-list">
+            <li>Concept Development & Mood Boarding</li>
+            <li>Venue Sourcing & Coordination</li>
+            <li>Vendor Management & Curation</li>
+            <li>Detailed Event Timeline Planning</li>
+            <li>Guest Experience Design</li>
+            <li>Day-of Execution & Management</li>
+          </ul>
+          <a href="#booking" class="service-link">Enquire Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+
+        <!-- Card 2: MC -->
+        <div class="service-card service-card--featured reveal-up" style="animation-delay:0.15s">
+          <div class="service-badge">Most Requested</div>
+          <div class="service-icon">
+            <i class="ri-mic-line"></i>
+          </div>
+          <div class="service-number">02</div>
+          <h3>Professional Master of Ceremonies</h3>
+          <div class="service-rule"></div>
+          <p>An electric, engaging, and deeply experienced MC who commands any room — blending humour, culture, and seamless event flow.</p>
+          <ul class="service-list">
+            <li>Traditional & White Weddings</li>
+            <li>Birthday Galas & Milestones</li>
+            <li>Corporate Dinners & Awards</li>
+            <li>Crowd Engagement Mastery</li>
+            <li>Bilingual Hosting (English & Yoruba/Igbo)</li>
+            <li>Seamless Programme Flow</li>
+          </ul>
+          <a href="#booking" class="service-link">Enquire Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+
+        <!-- Card 3: Decor -->
+        <div class="service-card reveal-up" style="animation-delay:0.3s">
+          <div class="service-icon">
+            <i class="ri-plant-line"></i>
+          </div>
+          <div class="service-number">03</div>
+          <h3>Signature Event Décor</h3>
+          <div class="service-rule"></div>
+          <p>Transformative décor that turns any venue into a breathtaking environment — merging luxury aesthetics with authentic cultural richness.</p>
+          <ul class="service-list">
+            <li>Custom Stage & Backdrop Design</li>
+            <li>Luxury Floral Arrangements</li>
+            <li>Elegant Table Settings & Centrepieces</li>
+            <li>Cinematic Lighting Design</li>
+            <li>Traditional Cultural Décor Themes</li>
+            <li>Full Venue Transformation</li>
+          </ul>
+          <a href="#booking" class="service-link">Enquire Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GALLERY SECTION — Masonry + Lightbox
+  ============================================================ -->
+  <section class="gallery-section section-pad" id="gallery">
+    <div class="container">
+      <div class="section-header center">
+        <div class="section-label">Portfolio</div>
+        <h2 class="section-title">Moments We've<br /><em>Made Eternal</em></h2>
+        <div class="gold-rule center"></div>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="gallery-filters" id="galleryFilters">
+        <button class="filter-btn active" data-filter="all">All Events</button>
+        <button class="filter-btn" data-filter="weddings">Weddings</button>
+        <button class="filter-btn" data-filter="traditional">Traditional Ceremonies</button>
+        <button class="filter-btn" data-filter="birthdays">Birthday Celebrations</button>
+        <button class="filter-btn" data-filter="decor">Reception Décor</button>
+        <button class="filter-btn" data-filter="luxury">Luxury Setups</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid" id="galleryGrid">
+        <div class="gallery-item" data-category="weddings" data-src="https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80" alt="Wedding Ceremony" loading="lazy" />
+          <div class="gallery-overlay"><i class="ri-zoom-in-line"></i><span>Wedding Ceremony</span></div>
+        </div>
+        <div class="gallery-item tall" data-category="decor" data-src="https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=800&q=80">
+          <img src="https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=600&q=80" alt="Reception Décor" loading="lazy" />
+          <div class="gallery-overlay"><i class="ri-zoom-in-line"></i><span>Luxury Reception</span></div>
+        </div>
+        <div class="gallery-item" data-category="traditional" data-src="https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=800&q=80">
+          <img src="https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=600&q=80" alt="Traditional Ceremony" loading="lazy" />
+          <div class="gallery-overlay"><i class="ri-zoom-in-line"></i><span>Traditional Ceremony</span></div>
+        </div>
+        <div class="gallery-item wide" data-category="birthdays" data-src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80">
+          <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&q=80" alt="Birthday Celebration" loading="lazy" />
+          <div class="gallery-overlay"><i class="ri-zoom-in-line"></i><span>Birthday Gala</span></div>
+        </div>
+        <div class="gallery-item" data-category="luxury" data-src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80">
+          <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&q=80" alt="Luxury Setup" loading="lazy" />
+          <div class="gallery-overlay"><i class="ri-zoom-in-line"></i><span>Luxury Event Setup</span></div>
+        </div>
+        <div class="gallery-item" data-category="weddings" data-src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&q=80">
+          <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&q=80" alt="Wedding Reception" loading="lazy" />
+          <div class="gallery-overlay"><i class="ri-zoom-in-line"></i><span>Wedding Reception</span></div>
+        </div>
+        <div class="gallery-item tall" data-category="decor" data-src="https://images.unsplash.com/photo-1505944270255-72b8c68c6a70?w=800&q=80">
+          <img src="https://images.unsplash.com/photo-1505944270255-72b8c68c6a70?w=600&q=80" alt="Floral Décor" loading="lazy" />
+          <div class="gallery-overlay"><i class="ri-zoom-in-line"></i><span>Floral Arrangements</span></div>
+        </div>
+        <div class="gallery-item" data-category="traditional" data-src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=800&q=80">
+          <img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=600&q=80" alt="Cultural Celebration" loading="lazy" />
+          <div class="gallery-overlay"><i class="ri-zoom-in-line"></i><span>Cultural Celebration</span></div>
+        </div>
+        <div class="gallery-item" data-category="luxury" data-src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80">
+          <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80" alt="Corporate Event" loading="lazy" />
+          <div class="gallery-overlay"><i class="ri-zoom-in-line"></i><span>Corporate Gala</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose"><i class="ri-close-line"></i></button>
+      <button class="lightbox-prev" id="lightboxPrev"><i class="ri-arrow-left-s-line"></i></button>
+      <button class="lightbox-next" id="lightboxNext"><i class="ri-arrow-right-s-line"></i></button>
+      <div class="lightbox-img-wrap">
+        <img src="" alt="" id="lightboxImg" />
+        <span class="lightbox-caption" id="lightboxCaption"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIALS SECTION — Carousel Slider
+  ============================================================ -->
+  <section class="testimonials section-pad dark-section" id="testimonials">
+    <div class="container">
+      <div class="section-header center">
+        <div class="section-label">Client Love</div>
+        <h2 class="section-title light">Words From Our<br /><em>Celebrated Families</em></h2>
+        <div class="gold-rule center"></div>
+      </div>
+
+      <div class="testimonial-slider-wrap">
+        <div class="testimonial-slider" id="testimonialSlider">
+
+          <div class="testimonial-slide active">
+            <div class="testimonial-card">
+              <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+              <p>"From the décor to the hosting, everything was absolutely flawless. Our wedding felt like a royal celebration. Every single guest could not stop talking about it weeks after."</p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=100&q=80" alt="Client" />
+                <div>
+                  <strong>Adaeze &amp; Emeka Okonkwo</strong>
+                  <span>Lagos Traditional &amp; White Wedding</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+              <p>"The MC was electric! He kept the energy alive the entire night. The décor was beyond anything we imagined. Àṣà Events truly delivered a once-in-a-lifetime experience."</p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=100&q=80" alt="Client" />
+                <div>
+                  <strong>Mrs. Folake Adeleke</strong>
+                  <span>60th Birthday Gala, Abuja</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+              <p>"Professional, creative, and deeply passionate about their work. Our traditional engagement was steeped in culture yet looked like something from a magazine. Absolutely stunning."</p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&q=80" alt="Client" />
+                <div>
+                  <strong>Chiamaka &amp; Tunde Fashola</strong>
+                  <span>Igbo Traditional Engagement, Port Harcourt</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+              <p>"We hired Àṣà for our company's annual awards gala. The transformation of the venue was spectacular. Our team is still talking about it. We will not use anyone else."</p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Client" />
+                <div>
+                  <strong>Mr. Rotimi Adesanya</strong>
+                  <span>Corporate Awards Night, Lagos</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Slider Controls -->
+        <div class="testimonial-controls">
+          <button class="t-btn" id="tPrev"><i class="ri-arrow-left-line"></i></button>
+          <div class="t-dots" id="tDots">
+            <button class="t-dot active"></button>
+            <button class="t-dot"></button>
+            <button class="t-dot"></button>
+            <button class="t-dot"></button>
+          </div>
+          <button class="t-btn" id="tNext"><i class="ri-arrow-right-line"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PACKAGES SECTION — 3 Pricing Tiers
+  ============================================================ -->
+  <section class="packages section-pad" id="packages">
+    <div class="container">
+      <div class="section-header center">
+        <div class="section-label">Investment</div>
+        <h2 class="section-title">Choose Your<br /><em>Celebration Level</em></h2>
+        <div class="gold-rule center"></div>
+        <p class="section-desc">Each package is fully customisable. Contact us for a bespoke quote tailored to your unique celebration.</p>
+      </div>
+
+      <div class="packages-grid">
+
+        <!-- Package 1 -->
+        <div class="package-card reveal-up">
+          <div class="package-tier">Essential</div>
+          <h3 class="package-name">Essential Celebration Package</h3>
+          <p class="package-desc">Perfect for intimate gatherings and smaller milestone events.</p>
+          <div class="package-divider"></div>
+          <ul class="package-features">
+            <li><i class="ri-check-line"></i> Event Coordination & Consultation</li>
+            <li><i class="ri-check-line"></i> Professional MC Hosting</li>
+            <li><i class="ri-check-line"></i> Basic Décor Setup</li>
+            <li><i class="ri-check-line"></i> Timeline & Programme Design</li>
+            <li><i class="ri-check-line"></i> Vendor Recommendations</li>
+            <li class="muted"><i class="ri-close-line"></i> Custom Décor Design</li>
+            <li class="muted"><i class="ri-close-line"></i> Full Venue Transformation</li>
+          </ul>
+          <a href="#booking" class="btn btn-outline-dark">Request Quote</a>
+        </div>
+
+        <!-- Package 2 — Featured -->
+        <div class="package-card package-card--featured reveal-up" style="animation-delay:0.15s">
+          <div class="package-badge">Most Popular</div>
+          <div class="package-tier">Premium</div>
+          <h3 class="package-name">Premium Celebration Package</h3>
+          <p class="package-desc">Our most popular offering — everything you need for a grand, elegant celebration.</p>
+          <div class="package-divider"></div>
+          <ul class="package-features">
+            <li><i class="ri-check-line"></i> Full Event Planning</li>
+            <li><i class="ri-check-line"></i> Professional MC Hosting</li>
+            <li><i class="ri-check-line"></i> Custom Décor Design</li>
+            <li><i class="ri-check-line"></i> Vendor Coordination & Management</li>
+            <li><i class="ri-check-line"></i> Day-of Event Management</li>
+            <li><i class="ri-check-line"></i> Floral Arrangements</li>
+            <li class="muted"><i class="ri-close-line"></i> Full Venue Transformation</li>
+          </ul>
+          <a href="#booking" class="btn btn-gold">Request Quote</a>
+        </div>
+
+        <!-- Package 3 -->
+        <div class="package-card reveal-up" style="animation-delay:0.3s">
+          <div class="package-tier">Royal</div>
+          <h3 class="package-name">Royal Luxury Package</h3>
+          <p class="package-desc">The ultimate celebration experience — for those who accept nothing less than extraordinary.</p>
+          <div class="package-divider"></div>
+          <ul class="package-features">
+            <li><i class="ri-check-line"></i> Full Luxury Event Design</li>
+            <li><i class="ri-check-line"></i> Professional MC Hosting</li>
+            <li><i class="ri-check-line"></i> Custom Stage & Backdrop Décor</li>
+            <li><i class="ri-check-line"></i> Full Venue Transformation</li>
+            <li><i class="ri-check-line"></i> Dedicated Event Management Team</li>
+            <li><i class="ri-check-line"></i> Cinematic Lighting Design</li>
+            <li><i class="ri-check-line"></i> VIP Guest Experience Curation</li>
+          </ul>
+          <a href="#booking" class="btn btn-outline-dark">Request Quote</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BOOKING / CTA SECTION — Consultation Form
+  ============================================================ -->
+  <section class="booking section-pad dark-section" id="booking">
+    <div class="container">
+      <div class="booking-grid">
+        <!-- Left: CTA text -->
+        <div class="booking-text reveal-left">
+          <div class="section-label">Get In Touch</div>
+          <h2 class="section-title light">Let's Create Your<br /><em>Perfect Celebration</em></h2>
+          <div class="gold-rule"></div>
+          <p>
+            Every extraordinary event begins with a single conversation. Tell us about your vision and let us design the celebration of your dreams.
+          </p>
+          <div class="booking-info">
+            <div class="booking-info-item">
+              <i class="ri-phone-line"></i>
+              <span>+234 (0) 801 234 5678</span>
+            </div>
+            <div class="booking-info-item">
+              <i class="ri-mail-line"></i>
+              <span>hello@asaevents.ng</span>
+            </div>
+            <div class="booking-info-item">
+              <i class="ri-map-pin-line"></i>
+              <span>Victoria Island, Lagos, Nigeria</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <div class="booking-form-wrap reveal-right">
+          <form class="booking-form" id="bookingForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="bName">Full Name *</label>
+                <input type="text" id="bName" name="name" placeholder="Your full name" required />
+                <span class="field-error" id="bNameErr"></span>
+              </div>
+              <div class="form-group">
+                <label for="bEmail">Email Address *</label>
+                <input type="email" id="bEmail" name="email" placeholder="your@email.com" required />
+                <span class="field-error" id="bEmailErr"></span>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="bPhone">Phone Number *</label>
+                <input type="tel" id="bPhone" name="phone" placeholder="+234 000 000 0000" required />
+              </div>
+              <div class="form-group">
+                <label for="bType">Event Type *</label>
+                <select id="bType" name="eventType" required>
+                  <option value="">Select event type</option>
+                  <option>Traditional Wedding</option>
+                  <option>White Wedding</option>
+                  <option>Engagement Ceremony</option>
+                  <option>Birthday Celebration</option>
+                  <option>Corporate Event</option>
+                  <option>Cultural Celebration</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="bDate">Event Date</label>
+                <input type="date" id="bDate" name="eventDate" />
+              </div>
+              <div class="form-group">
+                <label for="bGuests">Estimated Guest Count</label>
+                <select id="bGuests" name="guests">
+                  <option value="">Select range</option>
+                  <option>Under 50 guests</option>
+                  <option>50 – 150 guests</option>
+                  <option>150 – 300 guests</option>
+                  <option>300 – 500 guests</option>
+                  <option>500+ guests</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group full">
+              <label for="bLocation">Event Location / City</label>
+              <input type="text" id="bLocation" name="location" placeholder="e.g. Lagos, Abuja, Port Harcourt…" />
+            </div>
+            <div class="form-group full">
+              <label for="bMessage">Tell Us About Your Dream Event</label>
+              <textarea id="bMessage" name="message" rows="4" placeholder="Share your vision, theme ideas, or any special requests…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold full-btn">Send Consultation Request <i class="ri-send-plane-line"></i></button>
+            <div class="form-success" id="formSuccess">
+              <i class="ri-checkbox-circle-line"></i>
+              Thank you! We'll be in touch within 24 hours to begin creating your celebration.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       INSTAGRAM / SOCIAL MEDIA PREVIEW SECTION
+  ============================================================ -->
+  <section class="social-section section-pad" id="social">
+    <div class="container">
+      <div class="section-header center">
+        <div class="section-label">Stay Connected</div>
+        <h2 class="section-title">Follow Our<br /><em>Celebrations</em></h2>
+        <div class="gold-rule center"></div>
+        <p class="section-desc">Join thousands of couples and families who follow our journey. Daily inspiration, behind-the-scenes magic, and celebration stories.</p>
+      </div>
+
+      <!-- Social handles -->
+      <div class="social-handles">
+        <a href="#" class="social-handle">
+          <i class="ri-instagram-line"></i>
+          <span>@asaevents_ng</span>
+        </a>
+        <a href="#" class="social-handle">
+          <i class="ri-tiktok-line"></i>
+          <span>@asaeventsng</span>
+        </a>
+        <a href="#" class="social-handle">
+          <i class="ri-facebook-circle-line"></i>
+          <span>Àṣà Luxury Events</span>
+        </a>
+      </div>
+
+      <!-- Instagram-style preview grid -->
+      <div class="instagram-grid">
+        <a href="#" class="insta-item"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=400&q=80" alt="Instagram" loading="lazy" /><div class="insta-hover"><i class="ri-heart-line"></i></div></a>
+        <a href="#" class="insta-item"><img src="https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=400&q=80" alt="Instagram" loading="lazy" /><div class="insta-hover"><i class="ri-heart-line"></i></div></a>
+        <a href="#" class="insta-item"><img src="https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=400&q=80" alt="Instagram" loading="lazy" /><div class="insta-hover"><i class="ri-heart-line"></i></div></a>
+        <a href="#" class="insta-item"><img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=400&q=80" alt="Instagram" loading="lazy" /><div class="insta-hover"><i class="ri-heart-line"></i></div></a>
+        <a href="#" class="insta-item"><img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=400&q=80" alt="Instagram" loading="lazy" /><div class="insta-hover"><i class="ri-heart-line"></i></div></a>
+        <a href="#" class="insta-item"><img src="https://images.unsplash.com/photo-1505944270255-72b8c68c6a70?w=400&q=80" alt="Instagram" loading="lazy" /><div class="insta-hover"><i class="ri-heart-line"></i></div></a>
+      </div>
+
+      <div class="center-btn">
+        <a href="#" class="btn btn-gold">Follow @asaevents_ng</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT SECTION
+  ============================================================ -->
+  <section class="contact-section section-pad dark-section" id="contact">
+    <div class="container">
+      <div class="section-header center">
+        <div class="section-label">Contact</div>
+        <h2 class="section-title light">Reach Out to<br /><em>Our Team</em></h2>
+        <div class="gold-rule center"></div>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact info -->
+        <div class="contact-info reveal-left">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="ri-phone-fill"></i></div>
+            <div>
+              <strong>Phone</strong>
+              <p>+234 (0) 801 234 5678</p>
+              <p>+234 (0) 802 345 6789</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="ri-mail-fill"></i></div>
+            <div>
+              <strong>Email</strong>
+              <p>hello@asaevents.ng</p>
+              <p>bookings@asaevents.ng</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="ri-map-pin-fill"></i></div>
+            <div>
+              <strong>Office</strong>
+              <p>15 Adeola Odeku Street</p>
+              <p>Victoria Island, Lagos, Nigeria</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="ri-time-fill"></i></div>
+            <div>
+              <strong>Business Hours</strong>
+              <p>Monday – Friday: 9am – 6pm</p>
+              <p>Saturday: 10am – 4pm</p>
+            </div>
+          </div>
+
+          <!-- Social icons row -->
+          <div class="contact-socials">
+            <a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+            <a href="#" aria-label="TikTok"><i class="ri-tiktok-line"></i></a>
+            <a href="#" aria-label="Facebook"><i class="ri-facebook-circle-line"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="ri-whatsapp-line"></i></a>
+            <a href="#" aria-label="YouTube"><i class="ri-youtube-line"></i></a>
+          </div>
+        </div>
+
+        <!-- Contact form -->
+        <div class="contact-form-wrap reveal-right">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="cName">Your Name</label>
+              <input type="text" id="cName" placeholder="Full name" required />
+            </div>
+            <div class="form-group">
+              <label for="cEmail">Email Address</label>
+              <input type="email" id="cEmail" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="cSubject">Subject</label>
+              <input type="text" id="cSubject" placeholder="How can we help you?" />
+            </div>
+            <div class="form-group">
+              <label for="cMsg">Message</label>
+              <textarea id="cMsg" rows="5" placeholder="Write your message here…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold full-btn">Send Message <i class="ri-send-plane-line"></i></button>
+            <div class="form-success" id="contactSuccess">
+              <i class="ri-checkbox-circle-line"></i> Message sent! We'll respond shortly.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+
+          <!-- Brand column -->
+          <div class="footer-col footer-brand">
+            <div class="footer-logo">
+              <span class="logo-icon">✦</span>
+              <div class="logo-text">
+                <span class="logo-main">Àṣà Events</span>
+                <span class="logo-sub">Luxury Celebrations</span>
+              </div>
+            </div>
+            <p>Nigeria's premier luxury event planning house. Crafting extraordinary celebrations with elegance, culture, and modern sophistication since 2012.</p>
+            <div class="footer-socials">
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-tiktok-line"></i></a>
+              <a href="#"><i class="ri-facebook-circle-line"></i></a>
+              <a href="#"><i class="ri-whatsapp-line"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#packages">Packages</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Services -->
+          <div class="footer-col">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#services">Luxury Event Planning</a></li>
+              <li><a href="#services">Professional MC</a></li>
+              <li><a href="#services">Signature Décor</a></li>
+              <li><a href="#services">Traditional Weddings</a></li>
+              <li><a href="#services">White Weddings</a></li>
+              <li><a href="#services">Birthday Galas</a></li>
+              <li><a href="#services">Corporate Events</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="footer-col">
+            <h4>Get In Touch</h4>
+            <ul class="footer-contact">
+              <li><i class="ri-phone-line"></i> +234 (0) 801 234 5678</li>
+              <li><i class="ri-mail-line"></i> hello@asaevents.ng</li>
+              <li><i class="ri-map-pin-line"></i> Victoria Island, Lagos</li>
+            </ul>
+            <a href="#booking" class="btn btn-gold btn-sm">Book Consultation</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer bottom -->
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2025 Àṣà Luxury Events. All Rights Reserved. Crafted with love in Lagos, Nigeria.</p>
+        <p>Privacy Policy &nbsp;|&nbsp; Terms of Service</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       FLOATING WHATSAPP BUTTON
+  ============================================================ -->
+  <a href="https://wa.me/2348012345678" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="ri-whatsapp-line"></i>
+    <span class="whatsapp-tooltip">Chat with us!</span>
+  </a>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="ri-arrow-up-line"></i>
+  </button>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
